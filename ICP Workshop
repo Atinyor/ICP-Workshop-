@@ -1,0 +1,14 @@
+import 
+actor WinnebaWorkshop{
+//Add task 
+
+type Task={
+tittle :Text;
+description : Text;
+isCompleted : Bool;
+//complete task
+// view task
+}stable var currentTask : Task = null;unwrap(currentTask.)isCompleted == true){
+    currentTask := ?{tttle = tttle; description = descrition; isCompleted = false};
+
+}
